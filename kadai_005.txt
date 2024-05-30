@@ -1,0 +1,52 @@
+PS C:\Users\user> cd C:\Users\user\Desktop\課題用フォルダ
+PS C:\Users\user\Desktop\課題用フォルダ> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\user\Desktop\課題用フォルダ
+
+
+----                 -------------         ------ ----
+d-----        2024/05/29     21:06                git_challenge
+
+PS C:\Users\user\Desktop\課題用フォルダ\git_challenge> git git init
+git: 'git' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+Initialized empty Git repository in C:/Users/user/Desktop/隱ｲ鬘檎畑繝輔か繝ｫ繝/git_challenge/.git/        
+PS C:\Users\user\Desktop\課題用フォルダ\git_challenge> git add hello_world.txt
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   hello_world.txt
+
+PS C:\Users\user\Desktop\課題用フォルダ\git_challenge> git commit -m "最初のコミット"
+[main (root-commit) 013ec70] 譛蛻昴・繧ｳ繝溘ャ繝
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\user\Desktop\課題用フォルダ\git_challenge> git add hello_world.txt
+PS C:\Users\user\Desktop\課題用フォルダ\git_challenge> git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   hello_world.txt
+
+PS C:\Users\user\Desktop\課題用フォルダ\git_challenge> git commit -m 二回目のコミット
+[main 71417c3] 莠悟屓逶ｮ縺ｮ繧ｳ繝溘ャ繝
+ 1 file changed, 2 insertions(+)
+PS C:\Users\user\Desktop\課題用フォルダ\git_challenge> git log
+commit 71417c396974eb95a5627ea6f35f374d05dd59e1 (HEAD -> main)
+Author: masayan01 <masamasamasa0806@icloud.com>
+Date:   Wed May 29 21:14:45 2024 +0900
+
+    二回目のコミット
+
+commit 013ec7081c3bb4c16fcded62192669078d5d5883
+Author: masayan01 <masamasamasa0806@icloud.com>
+Date:   Wed May 29 21:10:56 2024 +0900
+
+    最初のコミット
+PS C:\Users\user\Desktop\課題用フォルダ\git_challenge> 
