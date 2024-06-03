@@ -1,0 +1,14 @@
+$ mkdir git_challenge
+$ cd git_challenge
+$ echo "hello,world" > hello_world
+$ git init
+$ git add .
+$ git commit -m "一回目のコミット"
+$ echo "こんにちは、世界!">>
+.git/            hello_world.txt
+こんにちは、世界!">>  hello_world.txt
+$ git add .
+$ git commit -m "2回目のコミット"
+$ git log --oneline
+ececb32 (HEAD -> main) 2回目のコミット
+fcc2ad6 一回目のコミット
